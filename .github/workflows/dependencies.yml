@@ -3,7 +3,7 @@ on:
   push:
 
 jobs:
-  Run-update-python-modules.sh:
+  Run-update-python-modules-sh:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
