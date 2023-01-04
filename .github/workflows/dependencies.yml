@@ -16,7 +16,7 @@ jobs:
       run: ./update-python-modules.sh
 
     - name: Create or Update Pull Request
-      uses: gr2m/create-or-update-pull-request-action@v1.5.1
+      uses: gr2m/create-or-update-pull-request-action@v1.9.2
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
