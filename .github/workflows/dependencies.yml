@@ -1,6 +1,7 @@
 name: Run script to genereate python dependencies
 on: 
-  push:
+  schedule:
+    - cron: "36 16 22 * *"
 
 jobs:
   Run-update-python-modules-sh:
