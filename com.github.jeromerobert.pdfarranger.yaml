@@ -1,6 +1,6 @@
 id: com.github.jeromerobert.pdfarranger
 runtime: org.gnome.Platform
-runtime-version: '43'
+runtime-version: '44'
 sdk: org.gnome.Sdk
 command: pdfarranger
 
@@ -21,8 +21,8 @@ modules:
       - -DENABLE_QT5=OFF
       - -DENABLE_BOOST=OFF
     sources:
-      - url: https://poppler.freedesktop.org/poppler-23.01.0.tar.xz
-        sha256: fae9b88d3d5033117d38477b79220cfd0d8e252c278ec870ab1832501741fd94
+      - url: https://poppler.freedesktop.org/poppler-23.04.0.tar.xz
+        sha256: b6d893dc7dcd4138b9e9df59a13c59695e50e80dc5c2cacee0674670693951a1
         type: archive
         x-checker-data:
           type: anitya
@@ -50,8 +50,8 @@ modules:
     build-commands:
       - pip3 install --no-index --prefix=${FLATPAK_DEST} --no-build-isolation .
     sources:
-      - url: https://files.pythonhosted.org/packages/22/58/744d5e3229a234e9a5a92572e817fab5ae08b4d74420eb7deb0f78599054/pikepdf-6.2.7.tar.gz
-        sha256: 7f1402410feb461bb179adb382ee43d20aea26feb126a299731aa62989e299ca
+      - url: https://files.pythonhosted.org/packages/8d/0a/a964edab0bdb29ceae4ef4309f4448f52e71e8228748760d5edc9c3c0d7e/pikepdf-7.2.0.tar.gz
+        sha256: ad82b836faed0376c725e19d0f8a7c7bef389e8c46683c11bbfc70410bc2e3ee
         type: archive
         x-checker-data:
           type: pypi
@@ -64,8 +64,8 @@ modules:
         buildsystem: cmake-ninja
         builddir: true
         sources:
-          - url: https://github.com/qpdf/qpdf/releases/download/v11.2.0/qpdf-11.2.0.tar.gz
-            sha256: fbd2d75050933487929dbbe1b5c50a238487194bc7263c277d6e49abb90ab7f2
+          - url: https://github.com/qpdf/qpdf/releases/download/v11.3.0/qpdf-11.3.0.tar.gz
+            sha256: 547cee67de77b5c4ef4917e57d2db9c848cfe3aa950361f68d36367a3a03936e
             type: archive
             x-checker-data:
               type: anitya
