@@ -2,6 +2,7 @@ name: Run script to genereate python dependencies
 on: 
   schedule:
     - cron: "36 16 22 * *"
+  workflow_dispatch:
 
 jobs:
   Run-update-python-modules-sh:
