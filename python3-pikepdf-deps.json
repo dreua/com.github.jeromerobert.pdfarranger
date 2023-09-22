@@ -12,8 +12,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/00/d5/4903f310765e0ff2b8e91ffe55031ac6af77d982f0156061e20a4d1a8b2d/Pillow-9.5.0.tar.gz",
-                    "sha256": "bf548479d336726d7a0eceb6e767e179fbde37833ae42794602631a070d630f1",
+                    "url": "https://files.pythonhosted.org/packages/64/9e/7e638579cce7dc346632f020914141a164a872be813481f058883ee8d421/Pillow-10.0.1.tar.gz",
+                    "sha256": "d72967b06be9300fed5cfbc8b5bafceec48bf7cdc7dab66b1d2549035287191d",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "Pillow"
@@ -30,8 +30,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/52/ed/68e989fdac8f352cb6d506fac111ba1e1b74c0ef3660fadeeeeb765bc03c/pybind11-2.10.4-py3-none-any.whl",
-                    "sha256": "ec9be0c45061c829648d7e8c98a7d041768b768c934acd15196e0f1943d9a818",
+                    "url": "https://files.pythonhosted.org/packages/06/55/9f73c32dda93fa4f539fafa268f9504e83c489f460c380371d94296126cd/pybind11-2.11.1-py3-none-any.whl",
+                    "sha256": "33cdd02a6453380dd71cc70357ce388ad1ee8d32bd0e38fc22b273d050aa29b3",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "pybind11",
@@ -59,8 +59,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/1d/66/8f42c941be949ef2b22fe905d850c794e7c170a526023612aad5f3a121ad/setuptools_scm-7.1.0-py3-none-any.whl",
-                    "sha256": "73988b6d848709e2af142aa48c986ea29592bbcfca5375678064708205253d8e",
+                    "url": "https://files.pythonhosted.org/packages/ca/04/4ea91c627355ae6d976bf7f1fc2815372a96b1b87bf290c8d726d10a08a1/setuptools_scm-8.0.3-py3-none-any.whl",
+                    "sha256": "813822234453438a13c78d05c8af29918fbc06f88efb33d38f065340bbb48c39",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "setuptools_scm",
@@ -79,8 +79,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/31/25/5abcd82372d3d4a3932e1fa8c3dbf9efac10cc7c0d16e78467460571b404/typing_extensions-4.5.0-py3-none-any.whl",
-                    "sha256": "fb33085c39dd998ac16d1431ebc293a8b3eedd00fd4a32de0ff79002c19511b4",
+                    "url": "https://files.pythonhosted.org/packages/24/21/7d397a4b7934ff4028987914ac1044d3b7d52712f30e2ac7a2ae5bc86dd0/typing_extensions-4.8.0-py3-none-any.whl",
+                    "sha256": "8f92fc8806f9a6b641eaa5318da32b44d401efaac0f6678c9bc448ba3605faa0",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "typing_extensions",
